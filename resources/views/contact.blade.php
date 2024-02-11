@@ -144,7 +144,8 @@
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <h1 class="mb-3">Contact Us</h1>
-                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                    {{-- <p>Contact With Our Certified Agent</h1> --}}
+                                    <p>IpuHomes is a real estate company that helps people find their perfect home.The IpuHomes has a team of certified agents who are experts in the local market.The agents can help you with everything from finding a property to negotiating a purchase.To get started, you can make a call or schedule an appointment with a certified agent.</p>
                 </div>
                 <div class="row g-4">
                     <div class="col-12">
@@ -165,7 +166,7 @@
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-envelope-open text-primary"></i>
                                         </div>
-                                        <span>info@example.com</span>
+                                        <span>booking@ipuhomes.com</span>
                                     </div>
                                 </div>
                             </div>
@@ -175,7 +176,7 @@
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
                                             <i class="fa fa-phone-alt text-primary"></i>
                                         </div>
-                                        <span>+012 345 6789</span>
+                                        <span>+91 9999999999</span>
                                     </div>
                                 </div>
                             </div>

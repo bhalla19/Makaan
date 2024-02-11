@@ -45,7 +45,7 @@
 
 
         <!-- Navbar Start -->
-                <div class="container-fluid nav-bar bg-transparent">
+                        <div class="container-fluid nav-bar bg-transparent">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
                 <a href="{{route('index')}}" class="navbar-brand d-flex align-items-center text-center">
                     <div class="icon p-2 me-2">
@@ -179,8 +179,8 @@
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                                 <div class="mb-4">
                                     <h1 class="mb-3">Contact With Our Certified Agent</h1>
-                                    <p>Eirmod sed ipsum dolor sit rebum magna erat. Tempor lorem kasd vero ipsum sit sit
-                                        diam justo sed vero dolor duo.</p>
+                                    {{-- <p>Contact With Our Certified Agent</h1> --}}
+                                    <p>IpuHomes is a real estate company that helps people find their perfect home.The company has a team of certified agents who are experts in the local market.The agents can help you with everything from finding a property to negotiating a purchase.To get started, you can make a call or schedule an appointment with a certified agent.</p>
                                 </div>
                                 <a href="" class="btn btn-primary py-3 px-4 me-2"><i
                                         class="fa fa-phone-alt me-2"></i>Make A Call</a>
