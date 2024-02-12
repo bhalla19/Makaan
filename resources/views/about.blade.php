@@ -45,7 +45,7 @@
 
 
         <!-- Navbar Start -->
-                        <div class="container-fluid nav-bar bg-transparent">
+            <div class="container-fluid nav-bar bg-transparent">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
                 <a href="{{route('index')}}" class="navbar-brand d-flex align-items-center text-center">
                     <div class="icon p-2 me-2">
@@ -68,13 +68,14 @@
                                 <a href="{{route('propertyAgent')}}" class="dropdown-item">Property Agent</a>
                             </div>
                         </div>
-                        <div class="nav-item dropdown">
+                        {{-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu rounded-0 m-0">
-                                <a href="{{route('testimonial')}}" class="dropdown-item">Testimonial</a>
-                                <a href="{{route('404')}}" class="dropdown-item">404 Error</a>
+                                <a href="" class="dropdown-item">Testimonial</a>
+                                <a href="" class="dropdown-item">404 Error</a>
                             </div>
-                        </div>
+                        </div> --}}
+                        <a href="{{route('testimonial')}}" class="nav-item nav-link">Testimonial</a>
                         <a href="{{route('contact')}}" class="nav-item nav-link">Contact</a>
                     </div>
                     <a href="" class="btn btn-primary px-3 d-none d-lg-flex">Add Property</a>

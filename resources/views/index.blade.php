@@ -66,13 +66,14 @@
                                 <a href="{{route('propertyAgent')}}" class="dropdown-item">Property Agent</a>
                             </div>
                         </div>
-                        <div class="nav-item dropdown">
+                        {{-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu rounded-0 m-0">
-                                <a href="{{route('testimonial')}}" class="dropdown-item">Testimonial</a>
-                                <a href="{{route('404')}}" class="dropdown-item">404 Error</a>
+                                <a href="" class="dropdown-item">Testimonial</a>
+                                <a href="" class="dropdown-item">404 Error</a>
                             </div>
-                        </div>
+                        </div> --}}
+                        <a href="{{route('testimonial')}}" class="nav-item nav-link">Testimonial</a>
                         <a href="{{route('contact')}}" class="nav-item nav-link">Contact</a>
                     </div>
                     <a href="" class="btn btn-primary px-3 d-none d-lg-flex">Add Property</a>
@@ -690,7 +691,7 @@
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <h1 class="mb-3">Property Agents</h1>
-                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                    <p>The IpuHomes property agent team is a group of experienced and knowledgeable professionals who are dedicated to helping you find your dream home. We have a wide range of experience in the real estate industry and are familiar with all of the different neighborhoods in the area. We will work closely with you to understand your needs and wants and will do everything they can to find the perfect property for you. </p>
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -768,7 +769,8 @@
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <h1 class="mb-3">Our Clients Say!</h1>
-                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                    <p>IpuHomes is a real estate company that specializes in residential real estate. We offer a wide variety of properties, including new homes, luxury homes, and investment properties. We are committed to providing excellent customer service and satisfaction.
+.</p>
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item bg-light rounded p-3">
