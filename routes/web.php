@@ -14,7 +14,7 @@ use App\Http\Controllers\ViewsController;
 |
 */
 
-Route::get('/',[ViewsController::class,'index'])->name('index');
+Route::get('/',[ViewsController::class,'form_view'])->name('index');
 Route::get('/about',[ViewsController::class,'about'])->name('about');
 Route::get('/testimonial',[ViewsController::class,'testimonials'])->name('testimonial');
 Route::get('/404',[ViewsController::class,'Error404'])->name('404');

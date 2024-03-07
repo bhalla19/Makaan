@@ -45,6 +45,7 @@ class ViewsController extends Controller
        return redirect('/');
 
     }
+
     public function uploadForm(){
         return view('uploadForm');
     }
@@ -65,6 +66,21 @@ class ViewsController extends Controller
         $apartment->save();
 
     }
+
+    public function form_view(Request $request)
+{
+    $search = $request['search'] ?? "";
+    if ($search != "") {
+        $apartment = Apartment::where("name", "LIKE", "%$search%")
+                                ->orWhere("email", "LIKE", "%$search%")
+                                ->get();
+    } else {
+        $apartment = Apartment::paginate(10);
+    }
+    
+    $stored_data = compact('apartment', 'search');
+    return view('index', $stored_data); // Passing the $stored_data directly to the view
+}
 
     public function propertyAgent(){
         return view('property-agent');
