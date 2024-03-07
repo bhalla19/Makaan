@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\contact;
+use App\Models\Apartment;
 
 class ViewsController extends Controller
 {
@@ -42,6 +43,26 @@ class ViewsController extends Controller
        $Contact->message = $request['message'];
        $Contact->save();
        return redirect('/');
+
+    }
+    public function uploadForm(){
+        return view('uploadForm');
+    }
+
+    public function uploads(Request $request){
+        $request->validate([
+            "name"=>"required",
+            "price"=>"required",
+            "address"=>"required",
+            "file"=>"required"
+        ]);
+
+        $apartment = new Apartment;
+        $apartment->name = $request['name'];
+        $apartment->price = $request['price'];
+        $apartment->address = $request['address'];
+        $apartment->file = $request['file'];
+        $apartment->save();
 
     }
 

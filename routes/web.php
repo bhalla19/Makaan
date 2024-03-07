@@ -23,3 +23,5 @@ Route::post('/contactUs',[ViewsController::class,'ContactForm'])->name('ContactF
 Route::get('/property-agent',[ViewsController::class,'propertyAgent'])->name('propertyAgent');
 Route::get('/property-list',[ViewsController::class,'propertyList'])->name('propertyList');
 Route::get('/property-type',[ViewsController::class,'propertyType'])->name('propertyType');
+Route::post('/upload',[ViewsController::class,'uploads'])->name('upload');
+Route::get('upload',[ViewsController::class,'uploadForm']);
